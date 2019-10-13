@@ -7,15 +7,20 @@ const moment = require('moment')
 
 let spotify = new Spotify(keys.spotify)
 
+const print = str => {
+  console.log(str)
+  fs.appendFile('log.txt', str, e => console.log(e ? e : 'success'))
+}
+
 const concertThis = band => {
   // Grab information from bandsintown api
   axios.get(`https://rest.bandsintown.com/artists/${band ? band : 'Marshmellow'}/events?app_id=codingbootcamp`)
     .then(r => {
       // Loop through venues
       r.data.forEach(x => {
-        console.log(`Venue Name: ${x.venue.name}`)
-        console.log(`Venue Location: ${x.venue.city}, ${x.venue.region ? (x.venue.region + ', ') : ''}${x.venue.country}`)
-        console.log(`Event Date: ${moment(x.datetime, 'YYYY-MM-DDTHH:mm:ss').format('MM/DD/YYYY')}`)
+        print(`Venue Name: ${x.venue.name}`)
+        print(`Venue Location: ${x.venue.city}, ${x.venue.region ? (x.venue.region + ', ') : ''}${x.venue.country}`)
+        print(`Event Date: ${moment(x.datetime, 'YYYY-MM-DDTHH:mm:ss').format('MM/DD/YYYY')}`)
       })
     })
     .catch(e => console.error(e))
@@ -34,10 +39,10 @@ const spotifyThisSong = song => {
         artists += artist.name + ', '
       })
       artists = artists.slice(0, artists.length - 2)
-      console.log(`Artist(s): ${artists}`)
-      console.log(`Name: ${song.name}`)
-      console.log(`Preview: ${song.preview_url}`)
-      console.log(`Album: ${song.album.name}`)
+      print(`Artist(s): ${artists}`)
+      print(`Name: ${song.name}`)
+      print(`Preview: ${song.preview_url}`)
+      print(`Album: ${song.album.name}`)
     })
     .catch(e => console.error(e))
 }
@@ -50,14 +55,14 @@ const movieThis = movie => {
       axios(`http://www.omdbapi.com/?apikey=e12f6339&i=${r.data.Search[0].imdbID}`)
         .then(r => {
           const movie = r.data
-          console.log(`Title: ${movie.Title}`)
-          console.log(`Year: ${movie.Year}`)
-          console.log(`IMDB Rating: ${movie.Ratings[0].Source === 'Internet Movie Database' ? movie.Ratings[0].Value : 'N/A'}`)
-          console.log(`Rotten Tomatoes Rating: ${movie.Ratings[1].Source === 'Rotten Tomatoes' ? movie.Ratings[1].Value : 'N/A'}`)
-          console.log(`Country: ${movie.Country}`)
-          console.log(`Language: ${movie.Language}`)
-          console.log(`Plot: ${movie.Plot}`)
-          console.log(`Actors: ${movie.Actors}`)
+          print(`Title: ${movie.Title}`)
+          print(`Year: ${movie.Year}`)
+          print(`IMDB Rating: ${movie.Ratings[0].Source === 'Internet Movie Database' ? movie.Ratings[0].Value : 'N/A'}`)
+          print(`Rotten Tomatoes Rating: ${movie.Ratings[1].Source === 'Rotten Tomatoes' ? movie.Ratings[1].Value : 'N/A'}`)
+          print(`Country: ${movie.Country}`)
+          print(`Language: ${movie.Language}`)
+          print(`Plot: ${movie.Plot}`)
+          print(`Actors: ${movie.Actors}`)
         })
         .catch(e => console.error(e))
     })
@@ -93,8 +98,10 @@ const liriDoSomethingUseful = (action, data) => {
   }
 }
 
+fs.appendFile('log.txt', process.argv.join(' '), e => console.log(e ? e : 'success'))
+
 if (process.argv[2]) {
   liriDoSomethingUseful( process.argv[2], process.argv[3])
 } else {
-  console.log('I need to know what to do.')
+  print('LIRI does not understand command.')
 }
