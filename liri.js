@@ -9,7 +9,7 @@ let spotify = new Spotify(keys.spotify)
 
 const concertThis = band => {
   // Grab information from bandsintown api
-  axios.get(`https://rest.bandsintown.com/artists/${process.argv[3]}/events?app_id=codingbootcamp`)
+  axios.get(`https://rest.bandsintown.com/artists/${band ? band : 'Marshmellow'}/events?app_id=codingbootcamp`)
     .then(r => {
       // Loop through venues
       r.data.forEach(x => {
@@ -65,49 +65,36 @@ const movieThis = movie => {
     .finally(_ => { })
 }
 
-if (process.argv[2]) {
-  switch (process.argv[2]) {
+const liriDoSomethingUseful = (action, data) => {
+  switch (action) {
     case 'concert-this':
-      // Make sure a band was provided
-      if (!process.argv[3]) {
-        console.log('Need a band to search for!')
-        break
-      }
-      concertThis(process.argv[3])
+      concertThis(data)
       break
     case 'spotify-this-song':
-      spotifyThisSong(process.argv[3])
+      spotifyThisSong(data)
       break
     case 'movie-this':
-      movieThis(process.argv[3])
+      movieThis(data)
       break
     case 'do-what-it-says':
-      fs.readFile('random.txt', 'utf8', (e, data) => {
-        if (e) {
-          console.log(e)
-        }
-        // Rearrange file input to usable data
-        let args = data.split(',')
-        args[1] = args[1].replace(/['"]/g, '')
-        // Preform function based on first argument
-        switch (args[0]) {
-          case 'concert-this':
-            concertThis(args[1])
-            break
-          case 'spotify-this-song':
-            spotifyThisSong(args[1])
-            break
-          case 'movie-this':
-            movieThis(args[1])
-            break
-          default:
-            break
-        }
-      })
+        fs.readFile('random.txt', 'utf8', (e, data) => {
+          if (e) {
+            console.log(e)
+          }
+          // Rearrange file input to usable data
+          let args = data.split(',')
+          args[1] = args[1].replace(/['"]/g, '')
+          // Preform function based on first argument
+          liriDoSomethingUseful( args[0], args[1])
+        })
       break
     default:
       break
   }
+}
+
+if (process.argv[2]) {
+  liriDoSomethingUseful( process.argv[2], process.argv[3])
 } else {
   console.log('I need to know what to do.')
 }
