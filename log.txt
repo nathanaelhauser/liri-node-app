@@ -1,0 +1,35 @@
+C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js movie-this The Matrix
+Title: The Matrix
+IMDB Rating: 8.7/10
+Rotten Tomatoes Rating: 88%
+Year: 1999
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+Country: USA
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js spotify-this-song
+Artist(s): Ace of Base
+Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=4604f03881f3436092b97d4f5a3b1961
+Album: The Sign (US Album) [Remastered]
+Name: The Sign
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js movie-thisTitle: Mr. Nobody
+IMDB Rating: 7.8/10
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Rotten Tomatoes Rating: 67%
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Year: 2009
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this
+Venue Name: 97.1 Amp Radio's 7th Annual We Can Survive 2019
+Venue Name: Escape Psycho Circus Korea
+Venue Location: Gwacheon-si, South Korea
+Venue Name: EDC Guangdong 2019
+Event Date: 10/25/2019
+Venue Location: Hollywood, CA, United States
+Event Date: 10/19/2019
+Venue Name: B96 Jingle Bash
+Event Date: 11/23/2019
+Venue Location: Rosemont, IL, United States
+Event Date: 12/07/2019
+Venue Location: Zhuhai, China

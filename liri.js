@@ -9,7 +9,7 @@ let spotify = new Spotify(keys.spotify)
 
 const print = str => {
   console.log(str)
-  fs.appendFile('log.txt', str, e => console.log(e ? e : 'success'))
+  fs.appendFile('log.txt', str + '\n', e => console.log(e ? e : 'success'))
 }
 
 const concertThis = band => {
@@ -49,7 +49,7 @@ const spotifyThisSong = song => {
 
 const movieThis = movie => {
   // Search omdb using given text
-  axios(`http://www.omdbapi.com/?apikey=e12f6339&s=${process.argv[3] ? process.argv[3] : 'Mr. Nobody'}`)
+  axios(`http://www.omdbapi.com/?apikey=e12f6339&s=${movie ? movie : 'Mr. Nobody'}`)
     .then(r => {
       // Obtain specific information using imdbID
       axios(`http://www.omdbapi.com/?apikey=e12f6339&i=${r.data.Search[0].imdbID}`)
@@ -98,7 +98,7 @@ const liriDoSomethingUseful = (action, data) => {
   }
 }
 
-fs.appendFile('log.txt', process.argv.join(' '), e => console.log(e ? e : 'success'))
+fs.appendFile('log.txt', process.argv.join(' ') + '\n', e => console.log(e ? e : 'success'))
 
 if (process.argv[2]) {
   liriDoSomethingUseful( process.argv[2], process.argv[3])
