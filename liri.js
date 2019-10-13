@@ -82,11 +82,27 @@ if (process.argv[2]) {
       movieThis(process.argv[3])
       break
     case 'do-what-it-says':
-      fs.readFile('file.txt', 'utf8', (e, data) => {
+      fs.readFile('random.txt', 'utf8', (e, data) => {
         if (e) {
           console.log(e)
         }
-        console.log(data)
+        // Rearrange file input to usable data
+        let args = data.split(',')
+        args[1] = args[1].replace(/['"]/g, '')
+        // Preform function based on first argument
+        switch (args[0]) {
+          case 'concert-this':
+            concertThis(args[1])
+            break
+          case 'spotify-this-song':
+            spotifyThisSong(args[1])
+            break
+          case 'movie-this':
+            movieThis(args[1])
+            break
+          default:
+            break
+        }
       })
       break
     default:
