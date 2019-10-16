@@ -18,9 +18,7 @@ const concertThis = band => {
     .then(r => {
       // Loop through venues
       r.data.forEach(x => {
-        print(`Venue Name: ${x.venue.name}`)
-        print(`Venue Location: ${x.venue.city}, ${x.venue.region ? (x.venue.region + ', ') : ''}${x.venue.country}`)
-        print(`Event Date: ${moment(x.datetime, 'YYYY-MM-DDTHH:mm:ss').format('MM/DD/YYYY')}`)
+        print(`Performing in ${x.venue.name} at ${x.venue.city}, ${x.venue.region ? (x.venue.region + ', ') : ''}${x.venue.country} on ${moment(x.datetime, 'YYYY-MM-DDTHH:mm:ss').format('MM/DD/YYYY')}`)
       })
     })
     .catch(e => console.error(e))
@@ -98,9 +96,16 @@ const liriDoSomethingUseful = (action, data) => {
   }
 }
 
-fs.appendFile('log.txt', process.argv.join(' ') + '\n', e => console.log(e ? e : 'success'))
+fs.appendFile('log.txt', process.argv.join(' ') + '\n', e => console.log(console.log(e ? e : 'success')))
 
 if (process.argv[2]) {
+  let option = ''
+  if (process.argv[3]) {
+    for (let i = 3; i < process.argv.length; i++) {
+      option += `${process.argv[i]} `
+    }
+    option = option.substring(0, option.length-1)
+  }
   liriDoSomethingUseful( process.argv[2], process.argv[3])
 } else {
   print('LIRI does not understand command.')

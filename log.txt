@@ -33,3 +33,85 @@ Event Date: 11/23/2019
 Venue Location: Rosemont, IL, United States
 Event Date: 12/07/2019
 Venue Location: Zhuhai, China
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Jonas Brothers
+Venue Name: Curry Mallet and Beercrocombe Village Hall
+Venue Location: Taunton, United Kingdom
+Event Date: 11/15/2019
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Jonas Brothers
+Venue Name: Curry Mallet and Beercrocombe Village Hall
+Event Date: 11/15/2019
+Venue Location: Taunton, United Kingdom
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Jonas Brothers
+Venue Name: Curry Mallet and Beercrocombe Village Hall
+Venue Location: Taunton, United Kingdom
+Event Date: 11/15/2019
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Jonas Brothers
+Venue Name: Curry Mallet and Beercrocombe Village Hall
+Event Date: 11/15/2019
+Venue Location: Taunton, United Kingdom
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Beyonce
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Beyonce
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this SuperM
+Venue Name: Dickies Arena
+Venue Location: Fort Worth, TX, United States
+Venue Location: Chicago, IL, United States
+Event Date: 11/13/2019
+Venue Name: Infinite Energy Arena
+Venue Location: Duluth, GA, United States
+Event Date: 11/11/2019
+Venue Name: United Center
+Venue Location: Fairfax, VA, United States
+Event Date: 11/15/2019
+Venue Name: EagleBank Arena
+Venue Name: Madison Square Garden
+Venue Location: New York, NY, United States
+Venue Name: Viejas Arena
+Event Date: 11/19/2019
+Venue Location: San Diego, CA, United States
+Event Date: 11/17/2019
+Venue Name: The Forum
+Venue Location: Los Angeles, CA, United States
+Event Date: 01/30/2020
+Venue Name: SAP Center At San Jose
+Venue Location: San Jose, CA, United States
+Event Date: 02/02/2020
+Event Date: 02/01/2020
+Venue Location: Kent, WA, United States
+Event Date: 02/04/2020
+Venue Name: accesso ShoWare Center
+Venue Location: Vancouver, Canada
+Venue Name: Rogers Arena
+Event Date: 02/06/2020
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Post Malone
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Khalid
+Venue Name: Spark Arena
+Venue Location: Auckland, New Zealand
+Venue Name: Spark Arena
+Venue Location: Auckland, New Zealand
+Event Date: 11/21/2019
+Venue Name: Brisbane Entertainment Centre
+Event Date: 11/20/2019
+Venue Location: Boondall, Australia
+Event Date: 11/26/2019
+Venue Name: Rod Laver Arena
+Venue Location: Melbourne, Australia
+Venue Name: Adelaide Entertainment Centre
+Venue Location: Hindmarsh, Australia
+Event Date: 12/02/2019
+Venue Name: Qudos Bank Arena
+Event Date: 11/28/2019
+Event Date: 12/04/2019
+Venue Name: Qudos Bank Arena
+Venue Location: Sydney Olympic Park, Australia
+Venue Location: Sydney Olympic Park, Australia
+Event Date: 12/05/2019
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Khalid
+Performing in Spark Arena at Auckland, New Zealand on 11/20/2019
+Performing in Brisbane Entertainment Centre at Boondall, Australia on 11/26/2019
+Performing in Adelaide Entertainment Centre at Hindmarsh, Australia on 12/02/2019
+Performing in Qudos Bank Arena at Sydney Olympic Park, Australia on 12/04/2019
+Performing in Qudos Bank Arena at Sydney Olympic Park, Australia on 12/05/2019
+Performing in Spark Arena at Auckland, New Zealand on 11/21/2019
+Performing in Rod Laver Arena at Melbourne, Australia on 11/28/2019
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js
+LIRI does not understand command.
