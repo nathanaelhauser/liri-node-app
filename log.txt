@@ -115,3 +115,325 @@ Performing in Spark Arena at Auckland, New Zealand on 11/21/2019
 Performing in Rod Laver Arena at Melbourne, Australia on 11/28/2019
 C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js
 LIRI does not understand command.
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this coldplay
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this coldplay
+Artist has no performances scheduled.
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this coldplay
+Artist has no performances scheduled.
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this coldplay
+Artist has no performances scheduled.
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this coldplay
+Artist has no performances scheduled.
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this beyonce
+Artist has no performances scheduled.
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this superM
+Artist has no performances scheduled.
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Ariana Gande
+Artist has no performances scheduled.
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Ariana Grande
+Artist has no performances scheduled.
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Slayer
+Artist has no performances scheduled.
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this celine dione
+Artist has no performances scheduled.
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this jonas brothers
+Artist has no performances scheduled.
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Slayer
+Performing in Explore Asheville.com Arena at Asheville, NC, United States on 11/02/2019
+Performing in PNC Arena at Raleigh, NC, United States on 11/03/2019
+Performing in Salem Civic Center at Salem, VA, United States on 11/05/2019
+Performing in Mass Mutual Center at Springfield, MA, United States on 11/08/2019
+Performing in Madison Square Garden at New York, NY, United States on 11/09/2019
+Performing in Giant Center at Hershey, PA, United States on 11/06/2019
+Performing in KFC Yum! Center at Louisville, KY, United States on 11/11/2019
+Performing in Denny Sanford Premier Center at Sioux Falls, SD, United States on 11/15/2019
+Performing in Fargodome at Fargo, ND, United States on 11/17/2019
+Performing in TaxSlayer Center at Moline, IL, United States on 11/14/2019
+Performing in Nationwide Arena at Columbus, OH, United States on 11/12/2019
+Performing in CHI Health Center Omaha at Omaha, NE, United States on 11/18/2019
+Performing in First Interstate Arena at MetraPark at Billings, MT, United States on 11/22/2019
+Performing in Oakland Arena at Oakland, CA, United States on 11/26/2019
+Performing in Broadmoor World Arena at Colorado Springs, CO, United States on 11/20/2019
+Performing in Spokane Arena at Spokane, WA, United States on 11/24/2019
+Performing in The Forum at Los Angeles, CA, United States on 11/29/2019
+Performing in Grand Garden Arena at Las Vegas, NV, United States on 11/27/2019
+Performing in The Forum at Los Angeles, CA, United States on 11/30/2019
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Slayer
+Performing in Explore Asheville.com Arena at Asheville, NC, United States on 11/02/2019
+Performing in Salem Civic Center at Salem, VA, United States on 11/05/2019
+Performing in Mass Mutual Center at Springfield, MA, United States on 11/08/2019
+Performing in Madison Square Garden at New York, NY, United States on 11/09/2019
+Performing in Giant Center at Hershey, PA, United States on 11/06/2019
+Performing in KFC Yum! Center at Louisville, KY, United States on 11/11/2019
+Performing in Nationwide Arena at Columbus, OH, United States on 11/12/2019
+Performing in TaxSlayer Center at Moline, IL, United States on 11/14/2019
+Performing in Denny Sanford Premier Center at Sioux Falls, SD, United States on 11/15/2019
+Performing in Fargodome at Fargo, ND, United States on 11/17/2019
+Performing in CHI Health Center Omaha at Omaha, NE, United States on 11/18/2019
+Performing in Broadmoor World Arena at Colorado Springs, CO, United States on 11/20/2019
+Performing in First Interstate Arena at MetraPark at Billings, MT, United States on 11/22/2019
+Performing in Spokane Arena at Spokane, WA, United States on 11/24/2019
+Performing in Oakland Arena at Oakland, CA, United States on 11/26/2019
+Performing in PNC Arena at Raleigh, NC, United States on 11/03/2019
+Performing in Grand Garden Arena at Las Vegas, NV, United States on 11/27/2019
+Performing in The Forum at Los Angeles, CA, United States on 11/29/2019
+Performing in The Forum at Los Angeles, CA, United States on 11/30/2019
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Slayer
+Performing in Explore Asheville.com Arena at Asheville, NC, United States on 11/02/2019
+Performing in Giant Center at Hershey, PA, United States on 11/06/2019
+Performing in Salem Civic Center at Salem, VA, United States on 11/05/2019
+Performing in Madison Square Garden at New York, NY, United States on 11/09/2019
+Performing in Mass Mutual Center at Springfield, MA, United States on 11/08/2019
+Performing in Nationwide Arena at Columbus, OH, United States on 11/12/2019
+Performing in KFC Yum! Center at Louisville, KY, United States on 11/11/2019
+Performing in Denny Sanford Premier Center at Sioux Falls, SD, United States on 11/15/2019
+Performing in PNC Arena at Raleigh, NC, United States on 11/03/2019
+Performing in TaxSlayer Center at Moline, IL, United States on 11/14/2019
+Performing in CHI Health Center Omaha at Omaha, NE, United States on 11/18/2019
+Performing in Broadmoor World Arena at Colorado Springs, CO, United States on 11/20/2019
+Performing in First Interstate Arena at MetraPark at Billings, MT, United States on 11/22/2019
+Performing in Fargodome at Fargo, ND, United States on 11/17/2019
+Performing in Spokane Arena at Spokane, WA, United States on 11/24/2019
+Performing in Grand Garden Arena at Las Vegas, NV, United States on 11/27/2019
+Performing in The Forum at Los Angeles, CA, United States on 11/30/2019
+Performing in The Forum at Los Angeles, CA, United States on 11/29/2019
+Performing in Oakland Arena at Oakland, CA, United States on 11/26/2019
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Beyonce
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Beyonce
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Beyonce
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Beyonce
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Beyonce
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Beyonce
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this Beyonce
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this jonas brothers
+Performing in Curry Mallet and Beercrocombe Village Hall at Taunton, United Kingdom on 11/15/2019
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this jonas brothers
+Performing in Pechanga Arena San Diego at San Diego, CA, United States on 10/17/2019
+Performing in Hollywood Bowl at Hollywood, CA, United States on 10/19/2019
+Performing in Hollywood Bowl at Los Angeles, CA, United States on 10/20/2019
+Performing in MGM Grand Garden Arena at Las Vegas, NV, United States on 10/18/2019
+Performing in Auditorio Citibanamex at Monterrey, Mexico on 10/28/2019
+Performing in Hollywood Bowl at Los Angeles, CA, United States on 10/21/2019
+Performing in Palacio de los Deportes at Ciudad De México, Mexico on 10/30/2019
+Performing in Palacio de los Deportes at Ciudad De México, Mexico on 10/31/2019
+Performing in Arena VFG at Fraccionamiento Los Silos, Mexico on 11/02/2019
+Performing in Smoothie King Center at New Orleans, LA, United States on 11/12/2019
+Performing in Legacy Arena at the BJCC at Birmingham, AL, United States on 11/13/2019
+Performing in BB&T Center at Sunrise, FL, United States on 11/15/2019
+Performing in Amway Center at Orlando, FL, United States on 11/16/2019
+Performing in VyStar Veterans Memorial Arena at Jacksonville, FL, United States on 11/17/2019
+Performing in Infinite Energy Arena at Duluth, GA, United States on 11/19/2019
+Performing in Spectrum Center at Charlotte, NC, United States on 11/20/2019
+Performing in Prudential Center at Newark, NJ, United States on 11/22/2019
+Performing in Barclays Center at Brooklyn, NY, United States on 11/23/2019
+Performing in TD Garden at Boston, MA, United States on 11/24/2019
+Performing in Auditorio Citibanamex at Monterrey, Mexico on 10/27/2019
+Performing in Boardwalk Hall at Atlantic City, NJ, United States on 11/29/2019
+Performing in Bell Centre at Montreal, Canada on 11/27/2019
+Performing in Royal Farms Arena at Baltimore, MD, United States on 11/30/2019
+Performing in Allstate Arena at Rosemont, IL, United States on 12/03/2019
+Performing in CHI Health Center Omaha at Omaha, NE, United States on 12/04/2019
+Performing in Frank C. Erwin, Jr., Special Events Center at Austin, TX, United States on 12/07/2019
+Performing in Talking Stick Resort Arena at Phoenix, AZ, United States on 12/10/2019
+Performing in Scotiabank Arena at Toronto, Canada on 11/26/2019
+Performing in American Airlines Center at Dallas, TX, United States on 12/06/2019
+Performing in Oracle Arena at Oakland, CA, United States on 12/12/2019
+Performing in The Forum at Los Angeles, CA, United States on 12/15/2019
+Performing in Allstate Arena at Rosemont, IL, United States on 12/18/2019
+Performing in State Farm Arena at Atlanta, GA, United States on 12/20/2019
+Performing in The Cove Atlantis at Nassau, Bahamas on 12/30/2019
+Performing in BB&T Center at Sunrise, FL, United States on 12/22/2019
+Performing in Fontainebleau Miami Beach at Miami Beach, FL, United States on 12/31/2019
+Performing in The Forum at Los Angeles, CA, United States on 12/14/2019
+Performing in Arena Birmingham at Birmingham, United Kingdom on 01/29/2020
+Performing in The SSE Arena, Wembley at London, United Kingdom on 02/03/2020
+Performing in The O2 at London, United Kingdom on 02/02/2020
+Performing in 3Arena at Dublin 1, Ireland on 01/31/2020
+Performing in The SSE Hydro at Glasgow, United Kingdom on 02/05/2020
+Performing in Lotto Arena at Antwerpen, Belgium on 02/08/2020
+Performing in Manchester Arena at Manchester, United Kingdom on 02/06/2020
+Performing in Hallenstadion at Zürich, Switzerland on 02/13/2020
+Performing in Mercedes-Benz Arena at Berlin, Germany on 02/10/2020
+Performing in Mediolanum Forum at Assago, Italy on 02/14/2020
+Performing in Wizin Center at Madrid, Spain on 02/16/2020
+Performing in Lanxess Arena at Köln, Germany on 02/11/2020
+Performing in Palau Sant Jordi at Barcelona, Spain on 02/17/2020
+Performing in AccorHotels Arena at Paris, France on 02/22/2020
+Performing in SUD DE FRANCE ARENA at Pérols, France on 02/18/2020
+Performing in Ziggo Dome at Amsterdam, Netherlands on 02/20/2020
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this jonas brothers
+Performing in Pechanga Arena San Diego at San Diego, CA, United States on 10/17/2019
+Performing in Hollywood Bowl at Los Angeles, CA, United States on 10/21/2019
+Performing in Auditorio Citibanamex at Monterrey, Mexico on 10/27/2019
+Performing in MGM Grand Garden Arena at Las Vegas, NV, United States on 10/18/2019
+Performing in Auditorio Citibanamex at Monterrey, Mexico on 10/28/2019
+Performing in Palacio de los Deportes at Ciudad De México, Mexico on 10/30/2019
+Performing in Hollywood Bowl at Los Angeles, CA, United States on 10/20/2019
+Performing in Palacio de los Deportes at Ciudad De México, Mexico on 10/31/2019
+Performing in Arena VFG at Fraccionamiento Los Silos, Mexico on 11/02/2019
+Performing in Smoothie King Center at New Orleans, LA, United States on 11/12/2019
+Performing in Legacy Arena at the BJCC at Birmingham, AL, United States on 11/13/2019
+Performing in Hollywood Bowl at Hollywood, CA, United States on 10/19/2019
+Performing in Amway Center at Orlando, FL, United States on 11/16/2019
+Performing in BB&T Center at Sunrise, FL, United States on 11/15/2019
+Performing in VyStar Veterans Memorial Arena at Jacksonville, FL, United States on 11/17/2019
+Performing in Spectrum Center at Charlotte, NC, United States on 11/20/2019
+Performing in Prudential Center at Newark, NJ, United States on 11/22/2019
+Performing in Infinite Energy Arena at Duluth, GA, United States on 11/19/2019
+Performing in Barclays Center at Brooklyn, NY, United States on 11/23/2019
+Performing in TD Garden at Boston, MA, United States on 11/24/2019
+Performing in Scotiabank Arena at Toronto, Canada on 11/26/2019
+Performing in Boardwalk Hall at Atlantic City, NJ, United States on 11/29/2019
+Performing in Royal Farms Arena at Baltimore, MD, United States on 11/30/2019
+Performing in Bell Centre at Montreal, Canada on 11/27/2019
+Performing in CHI Health Center Omaha at Omaha, NE, United States on 12/04/2019
+Performing in American Airlines Center at Dallas, TX, United States on 12/06/2019
+Performing in Allstate Arena at Rosemont, IL, United States on 12/03/2019
+Performing in Frank C. Erwin, Jr., Special Events Center at Austin, TX, United States on 12/07/2019
+Performing in Talking Stick Resort Arena at Phoenix, AZ, United States on 12/10/2019
+Performing in Oracle Arena at Oakland, CA, United States on 12/12/2019
+Performing in The Forum at Los Angeles, CA, United States on 12/14/2019
+Performing in Allstate Arena at Rosemont, IL, United States on 12/18/2019
+Performing in State Farm Arena at Atlanta, GA, United States on 12/20/2019
+Performing in BB&T Center at Sunrise, FL, United States on 12/22/2019
+Performing in The Cove Atlantis at Nassau, Bahamas on 12/30/2019
+Performing in Fontainebleau Miami Beach at Miami Beach, FL, United States on 12/31/2019
+Performing in The Forum at Los Angeles, CA, United States on 12/15/2019
+Performing in The O2 at London, United Kingdom on 02/02/2020
+Performing in Arena Birmingham at Birmingham, United Kingdom on 01/29/2020
+Performing in 3Arena at Dublin 1, Ireland on 01/31/2020
+Performing in The SSE Hydro at Glasgow, United Kingdom on 02/05/2020
+Performing in Manchester Arena at Manchester, United Kingdom on 02/06/2020
+Performing in The SSE Arena, Wembley at London, United Kingdom on 02/03/2020
+Performing in Lotto Arena at Antwerpen, Belgium on 02/08/2020
+Performing in Lanxess Arena at Köln, Germany on 02/11/2020
+Performing in Hallenstadion at Zürich, Switzerland on 02/13/2020
+Performing in Mediolanum Forum at Assago, Italy on 02/14/2020
+Performing in Wizin Center at Madrid, Spain on 02/16/2020
+Performing in Mercedes-Benz Arena at Berlin, Germany on 02/10/2020
+Performing in SUD DE FRANCE ARENA at Pérols, France on 02/18/2020
+Performing in Ziggo Dome at Amsterdam, Netherlands on 02/20/2020
+Performing in AccorHotels Arena at Paris, France on 02/22/2020
+Performing in Palau Sant Jordi at Barcelona, Spain on 02/17/2020
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js concert-this jonas brothers
+Performing in Pechanga Arena San Diego at San Diego, CA, United States on 10/17/2019
+Performing in Hollywood Bowl at Los Angeles, CA, United States on 10/20/2019
+Performing in Hollywood Bowl at Los Angeles, CA, United States on 10/21/2019
+Performing in Auditorio Citibanamex at Monterrey, Mexico on 10/27/2019
+Performing in Hollywood Bowl at Hollywood, CA, United States on 10/19/2019
+Performing in MGM Grand Garden Arena at Las Vegas, NV, United States on 10/18/2019
+Performing in Auditorio Citibanamex at Monterrey, Mexico on 10/28/2019
+Performing in Palacio de los Deportes at Ciudad De México, Mexico on 10/30/2019
+Performing in Arena VFG at Fraccionamiento Los Silos, Mexico on 11/02/2019
+Performing in Palacio de los Deportes at Ciudad De México, Mexico on 10/31/2019
+Performing in Smoothie King Center at New Orleans, LA, United States on 11/12/2019
+Performing in BB&T Center at Sunrise, FL, United States on 11/15/2019
+Performing in Legacy Arena at the BJCC at Birmingham, AL, United States on 11/13/2019
+Performing in VyStar Veterans Memorial Arena at Jacksonville, FL, United States on 11/17/2019
+Performing in Infinite Energy Arena at Duluth, GA, United States on 11/19/2019
+Performing in Amway Center at Orlando, FL, United States on 11/16/2019
+Performing in Spectrum Center at Charlotte, NC, United States on 11/20/2019
+Performing in TD Garden at Boston, MA, United States on 11/24/2019
+Performing in Barclays Center at Brooklyn, NY, United States on 11/23/2019
+Performing in Bell Centre at Montreal, Canada on 11/27/2019
+Performing in Boardwalk Hall at Atlantic City, NJ, United States on 11/29/2019
+Performing in Royal Farms Arena at Baltimore, MD, United States on 11/30/2019
+Performing in Allstate Arena at Rosemont, IL, United States on 12/03/2019
+Performing in CHI Health Center Omaha at Omaha, NE, United States on 12/04/2019
+Performing in Scotiabank Arena at Toronto, Canada on 11/26/2019
+Performing in Prudential Center at Newark, NJ, United States on 11/22/2019
+Performing in American Airlines Center at Dallas, TX, United States on 12/06/2019
+Performing in Talking Stick Resort Arena at Phoenix, AZ, United States on 12/10/2019
+Performing in Frank C. Erwin, Jr., Special Events Center at Austin, TX, United States on 12/07/2019
+Performing in Oracle Arena at Oakland, CA, United States on 12/12/2019
+Performing in The Forum at Los Angeles, CA, United States on 12/15/2019
+Performing in The Forum at Los Angeles, CA, United States on 12/14/2019
+Performing in Allstate Arena at Rosemont, IL, United States on 12/18/2019
+Performing in State Farm Arena at Atlanta, GA, United States on 12/20/2019
+Performing in The Cove Atlantis at Nassau, Bahamas on 12/30/2019
+Performing in Fontainebleau Miami Beach at Miami Beach, FL, United States on 12/31/2019
+Performing in Arena Birmingham at Birmingham, United Kingdom on 01/29/2020
+Performing in 3Arena at Dublin 1, Ireland on 01/31/2020
+Performing in The SSE Arena, Wembley at London, United Kingdom on 02/03/2020
+Performing in Manchester Arena at Manchester, United Kingdom on 02/06/2020
+Performing in Lotto Arena at Antwerpen, Belgium on 02/08/2020
+Performing in Mercedes-Benz Arena at Berlin, Germany on 02/10/2020
+Performing in The O2 at London, United Kingdom on 02/02/2020
+Performing in The SSE Hydro at Glasgow, United Kingdom on 02/05/2020
+Performing in BB&T Center at Sunrise, FL, United States on 12/22/2019
+Performing in Wizin Center at Madrid, Spain on 02/16/2020
+Performing in Palau Sant Jordi at Barcelona, Spain on 02/17/2020
+Performing in Lanxess Arena at Köln, Germany on 02/11/2020
+Performing in SUD DE FRANCE ARENA at Pérols, France on 02/18/2020
+Performing in AccorHotels Arena at Paris, France on 02/22/2020
+Performing in Hallenstadion at Zürich, Switzerland on 02/13/2020
+Performing in Mediolanum Forum at Assago, Italy on 02/14/2020
+Performing in Ziggo Dome at Amsterdam, Netherlands on 02/20/2020
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js spotify-this-song head in the clouds
+Name: Midsummer Madness
+Artist(s): 88rising, Joji, Rich Brian, Higher Brothers, AUGUST 08
+Preview: https://p.scdn.co/mp3-preview/43916581b41394a77e64ebc0aff0c0c301a40abf?cid=4604f03881f3436092b97d4f5a3b1961
+Album: Head In The Clouds
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js spotify-this-song plantain chips
+Artist(s): R2Bees
+Name: Plantain Chips
+Preview: https://p.scdn.co/mp3-preview/8fea791a672101b9dd1f9a64a65c289eb1c6e3ec?cid=4604f03881f3436092b97d4f5a3b1961
+Album: Plantain Chips
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js spotify-this-song mars is for losers
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js spotify-this-song mars is for losers
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js spotify-this-song mars is for losers
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js movie-this mars is for losers
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js movie-this mars is for losers
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js movie-this the matrix
+Title: The Matrix
+IMDB Rating: 8.7/10
+Year: 1999
+Rotten Tomatoes Rating: 88%
+Country: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js movie-this mars is for losers
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js movie-this mars is for losers
+No such movie!
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js movie-this the matrix
+Title: The Matrix
+Year: 1999
+IMDB Rating: 8.7/10
+Rotten Tomatoes Rating: 88%
+Country: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js spotify-this-song plantain chips
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js spotify-this-song plantain chips
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js spotify-this-song plantain chips
+Artist(s): R2Bees
+Name: Plantain Chips
+Preview: https://p.scdn.co/mp3-preview/8fea791a672101b9dd1f9a64a65c289eb1c6e3ec?cid=4604f03881f3436092b97d4f5a3b1961
+Album: Plantain Chips
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js spotify-this-song head in the clouds
+Artist(s): [object Object], [object Object], [object Object], [object Object], [object Object]
+Preview: https://p.scdn.co/mp3-preview/43916581b41394a77e64ebc0aff0c0c301a40abf?cid=4604f03881f3436092b97d4f5a3b1961
+Name: Midsummer Madness
+Album: Head In The Clouds
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js spotify-this-song head in the clouds
+Artist(s): [object Object], Joji, Rich Brian, Higher Brothers, AUGUST 08
+Preview: https://p.scdn.co/mp3-preview/43916581b41394a77e64ebc0aff0c0c301a40abf?cid=4604f03881f3436092b97d4f5a3b1961
+Album: Head In The Clouds
+Name: Midsummer Madness
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js spotify-this-song head in the clouds
+Artist(s): , 88rising, Joji, Rich Brian, Higher Brothers, AUGUST 08
+Preview: https://p.scdn.co/mp3-preview/43916581b41394a77e64ebc0aff0c0c301a40abf?cid=4604f03881f3436092b97d4f5a3b1961
+Name: Midsummer Madness
+Album: Head In The Clouds
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js spotify-this-song head in the clouds
+Artist(s): 88rising, Joji, Rich Brian, Higher Brothers, AUGUST 08
+Preview: https://p.scdn.co/mp3-preview/43916581b41394a77e64ebc0aff0c0c301a40abf?cid=4604f03881f3436092b97d4f5a3b1961
+Name: Midsummer Madness
+Album: Head In The Clouds
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js spotify-this-song head in the clouds
+Artist(s): 88rising, Joji, Rich Brian, Higher Brothers, AUGUST 08
+Preview: https://p.scdn.co/mp3-preview/43916581b41394a77e64ebc0aff0c0c301a40abf?cid=4604f03881f3436092b97d4f5a3b1961
+Album: Head In The Clouds
+Name: Midsummer Madness
