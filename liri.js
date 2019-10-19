@@ -4,12 +4,15 @@ const keys = require("./keys.js")
 const axios = require('axios')
 const fs = require('fs')
 const moment = require('moment')
+const inquirer = require('inquirer')
 
 let spotify = new Spotify(keys.spotify)
 
+const errorLog = e => e ? console.log(e) : ''
+
 const print = str => {
   console.log(str)
-  fs.appendFile('log.txt', str + '\n', e => console.log(e ? e : 'success'))
+  fs.appendFile('log.txt', str + '\n', errorLog)
 }
 
 const concertThis = band => {
@@ -26,28 +29,28 @@ const concertThis = band => {
       }
 
     })
-    .catch(e => console.error(e))
+    .catch(errorLog)
     .finally(_ => { })
 }
 
 const spotifyThisSong = song => {
   // Default to The Sign by Ace of Base if no song provided
   spotify.search({ type: 'track', query: song ? song : 'The Sign Ace of Base', limit: 1 })
-    .then(({ tracks: { items: songs } }) => {
-      if (songs.length < 1) {
+    .then(({ tracks: { total, items: songs } }) => {
+      if (total < 1) {
         print('That is not a song, try again!')
       } else {
         // Grab the first song spotify returned
         const song = songs[0]
         // Combine all artist names
-        const artists = song.artists.reduce((result, artist) => result ? `${result}, ${artist.name}` : artist.name, '')
-        print(`Artist(s): ${artists}`)
+        const artistNames = song.artists.reduce((result, artist) => result ? `${result}, ${artist.name}` : artist.name, '')
+        print(`Artist(s): ${artistNames}`)
         print(`Name: ${song.name}`)
         print(`Preview: ${song.preview_url}`)
         print(`Album: ${song.album.name}`)
       }
     })
-    .catch(e => console.error(e))
+    .catch(errorLog)
 }
 
 const movieThis = movie => {
@@ -70,29 +73,30 @@ const movieThis = movie => {
             print(`Plot: ${movie.Plot}`)
             print(`Actors: ${movie.Actors}`)
           })
-          .catch(e => console.error(e))
+          .catch(errorLog)
       }
     })
-    .catch(e => console.error(e))
+    .catch(errorLog)
     .finally(_ => { })
 }
 
-const liriDoSomethingUseful = (action, data) => {
-  switch (action) {
+const liriDoSomethingUseful = (command, option) => {
+  switch (command) {
     case 'concert-this':
-      concertThis(data)
+    case 'Concert This':
+      concertThis(option)
       break
     case 'spotify-this-song':
-      spotifyThisSong(data)
+    case 'Spotify This Song':
+      spotifyThisSong(option)
       break
     case 'movie-this':
-      movieThis(data)
+    case 'Movie This':
+      movieThis(option)
       break
-    case 'do-what-it-says':
+    case 'Do What It Says':
       fs.readFile('random.txt', 'utf8', (e, data) => {
-        if (e) {
-          console.log(e)
-        }
+        errorLog(e)
         // Rearrange file input to usable data
         let args = data.split(',')
         args[1] = args[1].replace(/['"]/g, '')
@@ -105,10 +109,34 @@ const liriDoSomethingUseful = (action, data) => {
   }
 }
 
-fs.appendFile('log.txt', process.argv.join(' ') + '\n', e => console.log(console.log(e ? e : 'success')))
+fs.appendFile('log.txt', process.argv.join(' ') + '\n',errorLog)
 
-if (process.argv[2]) {
-  liriDoSomethingUseful(process.argv[2], process.argv.slice(3).join(' '))
-} else {
-  print('LIRI does not understand command.')
-}
+inquirer
+  .prompt({
+    type: 'list',
+    name: 'command',
+    message: 'What would you like to do?',
+    choices: ['Concert This', 'Spotify This Song', 'Movie This', 'Do What It Says']
+  })
+  .then(({ command }) => {
+    if (command !== 'Do What It Says') {
+      const search = command[0] === 'C' ? 'band' : (command[0] === 'S' ? 'song' : 'movie')
+      optionSearch = `What ${search} should I search for?`
+      inquirer.prompt({
+        type: 'input',
+        name: 'option',
+        message: optionSearch
+      })
+        .then( ({ option }) => liriDoSomethingUseful(command, option))
+        .catch(errorLog)
+    } else {
+      liriDoSomethingUseful(command)
+    }
+  })
+  .catch(errorLog)
+
+// if (process.argv[2]) {
+//   liriDoSomethingUseful(process.argv[2], process.argv.slice(3).join(' '))
+// } else {
+//   print('LIRI does not understand command.')
+// }
