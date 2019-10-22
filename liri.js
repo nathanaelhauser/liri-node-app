@@ -22,10 +22,12 @@ const concertThis = band => {
       if (r.data.length < 1) {
         print('No scheduled events for artist.')
       } else {
-        // Loop through venues
+        print('-------------------------------------')
+        // Loop through venues and print them
         r.data.forEach(({ venue, datetime }) => {
           print(`Performing in ${venue.name} at ${venue.city}, ${venue.region ? (venue.region + ', ') : ''}${venue.country} on ${moment(datetime, 'YYYY-MM-DDTHH:mm:ss').format('MM/DD/YYYY')}`)
         })
+        print('-------------------------------------')
       }
 
     })
@@ -44,10 +46,12 @@ const spotifyThisSong = song => {
         const song = songs[0]
         // Combine all artist names
         const artistNames = song.artists.reduce((result, artist) => result ? `${result}, ${artist.name}` : artist.name, '')
+        print('-------------------------------------')
         print(`Artist(s): ${artistNames}`)
         print(`Name: ${song.name}`)
         print(`Preview: ${song.preview_url}`)
         print(`Album: ${song.album.name}`)
+        print('-------------------------------------')
       }
     })
     .catch(errorLog)
@@ -63,7 +67,7 @@ const movieThis = movie => {
         // Obtain specific information using imdbID
         axios(`http://www.omdbapi.com/?apikey=e12f6339&i=${r.data.Search[0].imdbID}`)
           .then(({ data: movie }) => {
-            // const movie = r.data
+            print('-------------------------------------')
             print(`Title: ${movie.Title}`)
             print(`Year: ${movie.Year}`)
             print(`IMDB Rating: ${movie.Ratings[0].Source === 'Internet Movie Database' ? movie.Ratings[0].Value : 'N/A'}`)
@@ -72,6 +76,7 @@ const movieThis = movie => {
             print(`Language: ${movie.Language}`)
             print(`Plot: ${movie.Plot}`)
             print(`Actors: ${movie.Actors}`)
+            print('-------------------------------------')
           })
           .catch(errorLog)
       }
@@ -97,9 +102,16 @@ const liriDoSomethingUseful = (command, option) => {
     case 'Do What It Says':
       fs.readFile('random.txt', 'utf8', (e, data) => {
         errorLog(e)
-        // Rearrange file input to usable data
+        // Make file input usable data
         let args = data.split(',')
         args[1] = args[1].replace(/['"]/g, '')
+        print(`
+            /////////////////////////////////////
+            // Do What It Says
+            // ${args[0]} -- ${args[1]}
+            /////////////////////////////////////
+          `)
+
         // Preform function based on first argument
         liriDoSomethingUseful(args[0], args[1])
       })
@@ -127,16 +139,17 @@ inquirer
         name: 'option',
         message: optionSearch
       })
-        .then( ({ option }) => liriDoSomethingUseful(command, option))
+        .then( ({ option }) => { 
+          print(`
+            /////////////////////////////////////
+            // ${command} -- ${option}
+            /////////////////////////////////////
+          `)
+          liriDoSomethingUseful(command, option)
+        })
         .catch(errorLog)
     } else {
       liriDoSomethingUseful(command)
     }
   })
   .catch(errorLog)
-
-// if (process.argv[2]) {
-//   liriDoSomethingUseful(process.argv[2], process.argv.slice(3).join(' '))
-// } else {
-//   print('LIRI does not understand command.')
-// }

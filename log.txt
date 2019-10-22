@@ -528,3 +528,147 @@ Artist(s): Backstreet Boys
 Name: I Want It That Way
 Album: The Hits--Chapter One
 Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=4604f03881f3436092b97d4f5a3b1961
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js
+
+            /////////////////////////////////////
+            // Concert This -- Marshmello
+            /////////////////////////////////////
+          
+-------------------------------------
+Performing in 97.1 Amp Radio's 7th Annual We Can Survive 2019 at Hollywood, CA, United States on 10/19/2019
+-------------------------------------
+Performing in Escape Psycho Circus Korea at Gwacheon-si, South Korea on 10/25/2019
+Performing in EDC Guangdong 2019 at Zhuhai, China on 11/23/2019
+Performing in B96 Jingle Bash at Rosemont, IL, United States on 12/07/2019
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js
+
+            /////////////////////////////////////
+            // Spotify This Song -- head in the clouds
+            /////////////////////////////////////
+          
+-------------------------------------
+Artist(s): 88rising, Joji, Rich Brian, Higher Brothers, AUGUST 08
+Preview: https://p.scdn.co/mp3-preview/43916581b41394a77e64ebc0aff0c0c301a40abf?cid=4604f03881f3436092b97d4f5a3b1961
+-------------------------------------
+Album: Head In The Clouds
+Name: Midsummer Madness
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js
+
+            /////////////////////////////////////
+            // Movie This -- The Matrix
+            /////////////////////////////////////
+          
+-------------------------------------
+Title: The Matrix
+Rotten Tomatoes Rating: 88%
+Year: 1999
+Country: USA
+IMDB Rating: 8.7/10
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+-------------------------------------
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+Language: English
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js
+
+            [94m/////////////////////////////////////[39m
+            [94m//[39m Concert This -- marshmello
+            [94m/////////////////////////////////////[39m
+          
+[94m-------------------------------------[39m
+Performing in 97.1 Amp Radio's 7th Annual We Can Survive 2019 at Hollywood, CA, United States on 10/19/2019
+[94m-------------------------------------[39m
+Performing in Escape Psycho Circus Korea at Gwacheon-si, South Korea on 10/25/2019
+Performing in EDC Guangdong 2019 at Zhuhai, China on 11/23/2019
+Performing in B96 Jingle Bash at Rosemont, IL, United States on 12/07/2019
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js
+
+            [32m/////////////////////////////////////[39m
+            [32m//[39m Concert This -- marshmellow
+            [32m/////////////////////////////////////[39m
+          
+[32m-------------------------------------[39m
+Performing in [33m97.1 Amp Radio's 7th Annual We Can Survive 2019[39m at [33mHollywood[39m, [33mCA, [39m[33mUnited States[39m on [33m10/19/2019[39m
+Performing in [33mEscape Psycho Circus Korea[39m at [33mGwacheon-si[39m, [33mSouth Korea[39m on [33m10/25/2019[39m
+Performing in [33mEDC Guangdong 2019[39m at [33mZhuhai[39m, [33mChina[39m on [33m11/23/2019[39m
+Performing in [33mB96 Jingle Bash[39m at [33mRosemont[39m, [33mIL, [39m[33mUnited States[39m on [33m12/07/2019[39m
+[32m-------------------------------------[39m
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js
+
+            [32m/////////////////////////////////////[39m
+            [32m//[39m Spotify This Song -- head in the clouds
+            [32m/////////////////////////////////////[39m
+          
+[32m-------------------------------------[39m
+[33mArtist(s):[39m 88rising, Joji, Rich Brian, Higher Brothers, AUGUST 08
+[33mPreview:[39m https://p.scdn.co/mp3-preview/43916581b41394a77e64ebc0aff0c0c301a40abf?cid=4604f03881f3436092b97d4f5a3b1961
+[33mAlbum:[39m Head In The Clouds
+[32m-------------------------------------[39m
+[33mName:[39m Midsummer Madness
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js
+
+            [32m/////////////////////////////////////[39m
+            [32m//[39m Movie This -- The Matrix
+            [32m/////////////////////////////////////[39m
+          
+[32m-------------------------------------[39m
+[33mIMDB Rating:[39m 8.7/10
+[33mTitle:[39m The Matrix
+[33mRotten Tomatoes Rating:[39m 88%
+[33mYear:[39m 1999
+[33mCountry:[39m USA
+[33mPlot:[39m A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+[33mActors:[39m Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+[33mLanguage:[39m English
+[32m-------------------------------------[39m
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js
+
+            /////////////////////////////////////
+            // Concert This -- Marshmello
+            /////////////////////////////////////
+          
+-------------------------------------
+Performing in Escape Psycho Circus Korea at Gwacheon-si, South Korea on 10/25/2019
+-------------------------------------
+Performing in EDC Guangdong 2019 at Zhuhai, China on 11/23/2019
+Performing in B96 Jingle Bash at Rosemont, IL, United States on 12/07/2019
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js
+
+            /////////////////////////////////////
+            // Spotify This Song -- head in the clouds
+            /////////////////////////////////////
+          
+-------------------------------------
+Artist(s): 88rising, Joji, Rich Brian, Higher Brothers, AUGUST 08
+Preview: https://p.scdn.co/mp3-preview/43916581b41394a77e64ebc0aff0c0c301a40abf?cid=4604f03881f3436092b97d4f5a3b1961
+Album: Head In The Clouds
+-------------------------------------
+Name: Midsummer Madness
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js
+
+            /////////////////////////////////////
+            // Movie This -- the matrix
+            /////////////////////////////////////
+          
+-------------------------------------
+IMDB Rating: 8.7/10
+Title: The Matrix
+Rotten Tomatoes Rating: 88%
+Year: 1999
+Country: USA
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+Language: English
+-------------------------------------
+C:\Program Files\nodejs\node.exe C:\Users\natha\Documents\Projects\Homework\liri-node-app\liri.js
+
+            /////////////////////////////////////
+            // Do What It Says
+            // spotify-this-song -- I Want it That Way
+            /////////////////////////////////////
+          
+-------------------------------------
+Name: I Want It That Way
+Artist(s): Backstreet Boys
+Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=4604f03881f3436092b97d4f5a3b1961
+Album: The Hits--Chapter One
+-------------------------------------
