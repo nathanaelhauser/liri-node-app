@@ -46,6 +46,7 @@ const spotifyThisSong = song => {
         const song = songs[0]
         // Combine all artist names
         const artistNames = song.artists.reduce((result, artist) => result ? `${result}, ${artist.name}` : artist.name, '')
+        // Print song information
         print('-------------------------------------')
         print(`Artist(s): ${artistNames}`)
         print(`Name: ${song.name}`)
@@ -67,6 +68,7 @@ const movieThis = movie => {
         // Obtain specific information using imdbID
         axios(`http://www.omdbapi.com/?apikey=e12f6339&i=${r.data.Search[0].imdbID}`)
           .then(({ data: movie }) => {
+            // Print movie information
             print('-------------------------------------')
             print(`Title: ${movie.Title}`)
             print(`Year: ${movie.Year}`)
@@ -86,6 +88,8 @@ const movieThis = movie => {
 }
 
 const liriDoSomethingUseful = (command, option) => {
+  // Dash commands are from Do What It Says input
+  // Space commands are from menu input
   switch (command) {
     case 'concert-this':
     case 'Concert This':
@@ -105,6 +109,7 @@ const liriDoSomethingUseful = (command, option) => {
         // Make file input usable data
         let args = data.split(',')
         args[1] = args[1].replace(/['"]/g, '')
+        // Print command and option chosen
         print(`
             /////////////////////////////////////
             // Do What It Says
@@ -121,7 +126,7 @@ const liriDoSomethingUseful = (command, option) => {
   }
 }
 
-fs.appendFile('log.txt', process.argv.join(' ') + '\n',errorLog)
+fs.appendFile('log.txt', process.argv.join(' ') + '\n', errorLog)
 
 inquirer
   .prompt({
@@ -131,7 +136,14 @@ inquirer
     choices: ['Concert This', 'Spotify This Song', 'Movie This', 'Do What It Says']
   })
   .then(({ command }) => {
-    if (command !== 'Do What It Says') {
+    // "Do What It Says" does not require more user input
+    if (command === 'Do What It Says') {
+      liriDoSomethingUseful(command)
+    } else {
+      // Else ask user for option to search for
+      // If 'C'oncert This, need a band name
+      // If 'S'potify This Song, need a song name
+      // If neither of the others, need a movie name
       const search = command[0] === 'C' ? 'band' : (command[0] === 'S' ? 'song' : 'movie')
       optionSearch = `What ${search} should I search for?`
       inquirer.prompt({
@@ -139,7 +151,8 @@ inquirer
         name: 'option',
         message: optionSearch
       })
-        .then( ({ option }) => { 
+        .then(({ option }) => {
+          // Liri can now do something with command and option
           print(`
             /////////////////////////////////////
             // ${command} -- ${option}
@@ -148,8 +161,6 @@ inquirer
           liriDoSomethingUseful(command, option)
         })
         .catch(errorLog)
-    } else {
-      liriDoSomethingUseful(command)
     }
   })
   .catch(errorLog)
