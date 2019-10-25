@@ -1,4 +1,4 @@
-# **LIRI**
+# **LIRI** - The Super Duper Amazing Happy Language Bot
  LIRI is a Language Interpretation and Recognition Interface that you can ask anything from!!\
  Well almost anything ... kind of anything ... just four things for now.
 
@@ -48,4 +48,4 @@ If the user does not choose Do What It Says, they will be prompted to enter a se
 
 ## **Enjoy life**
 ---
-LIRI will now provide you with the information you need to live a super duper happy life!
+LIRI will now provide you with the information you need to live a super duper amazing happy life!
