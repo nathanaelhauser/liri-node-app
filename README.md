@@ -6,7 +6,6 @@
 
 
  ## **Choosing an action**
- ---
  You can ask LIRI to:
  - Search This  
  - Spotify This Song  
@@ -30,7 +29,6 @@ Do What It Says will read from the random.txt using File System. Using the actio
 
 
 ## **Choosing a target**
----
 If the user does not choose Do What It Says, they will be prompted to enter a search term in conjunction with the action chosen.
 
 | **Action**         | **Option**  |
@@ -47,5 +45,4 @@ If the user does not choose Do What It Says, they will be prompted to enter a se
 
 
 ## **Enjoy life**
----
 LIRI will now provide you with the information you need to live a super duper amazing happy life!
